@@ -1,2 +1,0 @@
-# Ncc
-ctd-ncc
