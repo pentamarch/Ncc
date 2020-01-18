@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React ,{ Component} from 'react';
 import './App.css';
+import { Route} from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import Testcases from "./components/testcases/testcases.jsx";
+import Navbar from "./components/navBar";
+import Footer from "./components/footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {  }
+  render() { 
+    return (
+      <div className="container-fluid">
+        <div className="row" style={{height:"93vh",border:"2px solid black"}}>
+        <Navbar/>
+        <Route path="/testcases" component={Testcases}></Route>
+      </div>
+      <Footer/>
+      </div>
+    );
+  }
 }
-
+ 
 export default App;
+
