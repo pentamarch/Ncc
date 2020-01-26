@@ -13,7 +13,7 @@ class Testcases extends Component {
     render() { 
         return (
             <div className="col">
-        <h1>Testcases</h1>
+        <h1 >Testcases</h1>
         <div className="row" style={{height:"55vh"}}>
            <div className="col-lg-7" style={{marginLeft:"5vw"}}>
                <div className="row" style={{display:"flex",justifyContent:"center",height:"54vh",alignItems:"center"}}>
