@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.container-fluid{
+  background-image: linear-gradient(rgb(109, 170, 218),rgb(155, 218, 223));
+
+}
 
 .App-logo {
   height: 40vmin;

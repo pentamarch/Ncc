@@ -10,8 +10,8 @@ class App extends Component {
   state = {  }
   render() { 
     return (
-      <div className="container-fluid">
-        <div className="row" style={{height:"93vh",border:"2px solid black"}}>
+      <div className="container-fluid" >
+        <div className="row" style={{height:"93vh"}}>
         <Navbar/>
         <Route path="/testcases" component={Testcases}></Route>
       </div>
